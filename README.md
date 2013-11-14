@@ -1,6 +1,6 @@
 # Awesome
 
-TODO: Write a gem description
+[Awesome](http://createyourproglang.com/) programming language in Ruby.
 
 ## Installation
 
@@ -15,10 +15,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install awesome
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
