@@ -83,6 +83,8 @@ if 1:
       pass
     print "done!"
   2
+while 1:
+  "in"
 
 print "The End"
 CODE
@@ -100,6 +102,10 @@ CODE
          [:IDENTIFIER, "print"], [:STRING, "done!"],
          [:DEDENT, 2], [:NEWLINE, "\n"],
          [:NUMBER, 2],
+         [:DEDENT, 0], [:NEWLINE, "\n"],
+         [:WHILE, "while"], [:NUMBER, 1],
+         [:INDENT, 2],
+         [:STRING, "in"],
          [:DEDENT, 0], [:NEWLINE, "\n"],
          [:NEWLINE, "\n"],
          [:IDENTIFIER, "print"], [:STRING, "The End"]

@@ -1,6 +1,6 @@
 module Awesome
   class Lexer
-    KEYWORDS = %w(def class if true false nil).freeze
+    KEYWORDS = %w(def class if while true false nil).freeze
 
     def tokenize(code)
       code.chomp!
